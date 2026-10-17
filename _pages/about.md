@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 
-Hi! I am an M.S. student in Electrical & Electronic Engineering at **[Yonsei University](https://www.yonsei.ac.kr/sites/en_sc/index.do)**, advised by **[Prof. Won Woo Ro](https://escal.yonsei.ac.kr/professor.html)** in the **[Embedded Systems and Computer Architecture Lab (eSCaL)](https://escal.yonsei.ac.kr/)**.
+Hello! I'm Jain Koo. I am currently an M.S. student in Electrical & Electronic Engineering at **[Yonsei University](https://www.yonsei.ac.kr/sites/en_sc/index.do)**, advised by **[Prof. Won Woo Ro](https://escal.yonsei.ac.kr/professor.html)** in the **[Embedded Systems and Computer Architecture Lab (eSCaL)](https://escal.yonsei.ac.kr/)**.
 My research interests lie in building **efficient computing systems for emerging machine learning workloads** through **cross-layer co-design across algorithms, systems, and computer architecture**.
 
 ## Contents
@@ -19,7 +19,6 @@ My research interests lie in building **efficient computing systems for emerging
 - [Awards & Achievements](#awards--achievements)
 - [Teaching Experience](#teaching-experience)
 
----
 
 ## Education
 
@@ -34,7 +33,6 @@ Advisor: **Prof. Won Woo Ro**
 **B.S. in Earth System Science (2nd Major)**  
 Mar. 2021 – Aug. 2025
 
----
 
 ## Research Experience
 
@@ -49,7 +47,6 @@ Jan. 2025 – Sep. 2025
 Conducted research on computer architecture, LLM serving systems, processing-in-memory,
 and efficient AI acceleration.
 
----
 
 ## Publications
 
@@ -72,6 +69,20 @@ HPCA'2027 (Under Review) <span class="separator">|</span>
 
 </div>
 
+
+<div class="publication-item">
+
+<h3>
+WRAITH: Widening Reach via Auxiliary Idle-Core TLB
+Harnessing
+</h3>
+
+<p>
+In Preparation
+</p>
+
+
+</div>
 
 <div class="publication-item">
 
@@ -118,16 +129,5 @@ ITC-CSCC'2026 <span class="separator">|</span>
 - **Academic Honors**, Yonsei University, 2024
 - **Yonsei Jinri Scholarship**, Yonsei University, 2024
 
----
-
-## Teaching Experience
-
-### Electrical and Electronic Engineering Capstone Design
-**Teaching Assistant, Yonsei University**  
-Spring 2026
-
-- Advised undergraduate capstone-design teams.
-- Guided projects on LLM acceleration and memory systems.
-- Conducted regular research meetings and advised students on research directions.
 
 
