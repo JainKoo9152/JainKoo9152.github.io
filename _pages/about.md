@@ -57,9 +57,7 @@ DiVA: Algorithm–System Co-Design for Visual Autoregressive Models via Submap-L
 </h3>
 
 <p>
-<strong>Jain Koo</strong>, Sungbin Kim, Enhyeok Jang, Sungwoo Kim,
-<br>
-Yingyan (Celine) Lin, and Won Woo Ro
+<strong>Jain Koo</strong>, Sungbin Kim, Enhyeok Jang, Sungwoo Kim, Yingyan (Celine) Lin, and Won Woo Ro
 </p>
 
 <p class="publication-venue">
@@ -108,9 +106,7 @@ Maverick: Leveraging Address Translation to Mitigate Memory Latency in Server Wo
 </h3>
 
 <p>
-Hoje Lee, Minchan Kim, Jaewon Kwon, <strong>Jain Koo</strong>, Yongju Lee,
-<br>
-Won Hur, Jiwon Lee, and Won Woo Ro
+Hoje Lee, Minchan Kim, Jaewon Kwon, <strong>Jain Koo</strong>, Yongju Lee, Won Hur, Jiwon Lee, and Won Woo Ro
 </p>
 
 <p class="publication-venue">
