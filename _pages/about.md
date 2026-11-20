@@ -87,6 +87,23 @@ In Preparation
 <div class="publication-item">
 
 <h3>
+DiVA: Autobahn: Accelerating Video Visual Autoregressive Model via Semantic-Temporal Token Reduction
+</h3>
+
+<p>
+<strong>Yun Seok Kim, Sungbin Kim, Mingu Jung, Enhyeok Jang, Jain Koo</strong>, and Won Woo Ro 
+</p>
+
+<p class="publication-venue">
+DAC'2027 (Under Review) <span class="separator">|</span>
+<a href="/files/Autobahn_Arxiv.pdf">Paper</a>
+</p>
+
+</div>
+
+<div class="publication-item">
+
+<h3>
 Maverick: Leveraging Address Translation to Mitigate Memory Latency in Server Workloads
 </h3>
 
