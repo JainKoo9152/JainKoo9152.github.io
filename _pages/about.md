@@ -2,145 +2,25 @@
 permalink: /
 title: ""
 author_profile: true
-redirect_from:
+redirect_from: 
   - /about/
   - /about.html
 ---
+About
+======
+I'm an M.S. student in Electrical and Electronic Engineering at [Yonsei University](https://www.yonsei.ac.kr/sites/en_sc/index.do). I'm advised by [Prof. Won Woo Ro](https://escal.yonsei.ac.kr/professor.html) in the [Embedded Systems and Computer Architecture Lab (eSCaL)](https://escal.yonsei.ac.kr/). My research interests lie in building efficient computing systems for emerging machine learning workloads through cross-layer co-design across algorithms, systems, and computer architecture.
 
+I received my Bachelor's degree in Electrical and Electronic Engineering (1st major) and Earth System Science (2nd major) at Yonsei University.
 
-Hello! I'm Jain Koo. I am currently an M.S. student in Electrical & Electronic Engineering at **[Yonsei University](https://www.yonsei.ac.kr/sites/en_sc/index.do)**, advised by **[Prof. Won Woo Ro](https://escal.yonsei.ac.kr/professor.html)** in the **[Embedded Systems and Computer Architecture Lab (eSCaL)](https://escal.yonsei.ac.kr/)**.
-My research interests lie in building **efficient computing systems for emerging machine learning workloads** through **cross-layer co-design across algorithms, systems, and computer architecture**.
+## Research Interests
+My research focuses on **efficient computing systems for emerging machine learning workloads**, broadly in these three categories:
+  1. Computer architecture for datacenter efficiency.
+  2. Efficient GPU resource management.
+  3. Hardware-software co-design for emerging AI workloads.
 
-## Contents
-
-- [Education](#education)
-- [Research Experience](#research-experience)
-- [Publications](#publications)
-- [Awards & Achievements](#awards--achievements)
-- [Teaching Experience](#teaching-experience)
-
-
-## Education
-
-### Yonsei University
-
-**M.S. in Electrical & Electronic Engineering**  
-Sep. 2025 – Aug. 2027 (Expected)
-
-Advisor: **Prof. Won Woo Ro**
-
-**B.S. in Electrical & Electronic Engineering (1st Major)**  
-**B.S. in Earth System Science (2nd Major)**  
-Mar. 2021 – Aug. 2025
-
-
-## Research Experience
-
-### Embedded Systems and Computer Architecture Lab (eSCaL)
-**Graduate Student Researcher, Yonsei University**  
-Sep. 2025 – Present
-
-### Embedded Systems and Computer Architecture Lab (eSCaL)
-**Undergraduate Student Researcher, Yonsei University**  
-Jan. 2025 – Sep. 2025
-
-Conducted research on computer architecture, LLM serving systems, processing-in-memory,
-and efficient AI acceleration.
-
-
-## Publications
-
-<div class="publication-item">
-
-<h3>
-DiVA: Algorithm–System Co-Design for Visual Autoregressive Models via Submap-Level Retrievals
-</h3>
-
-<p>
-<strong>Jain Koo</strong>, Sungbin Kim, Enhyeok Jang, Sungwoo Kim, Yingyan (Celine) Lin, and Won Woo Ro
-</p>
-
-<p class="publication-venue">
-HPCA'2027 (Under Review) <span class="separator">|</span>
-<a href="/files/DiVA_Arxiv.pdf">Paper</a>
-</p>
-
-</div>
-
-
-<div class="publication-item">
-
-<h3>
-WRAITH: Widening Reach via Auxiliary Idle-Core TLB
-Harnessing
-</h3>
-
-<p>
-In Preparation
-</p>
-
-
-</div>
-
-<div class="publication-item">
-
-<h3>
-Autobahn: Accelerating Video Visual Autoregressive Model via Semantic-Temporal Token Reduction
-</h3>
-
-<p>
-<strong>Yun Seok Kim, Sungbin Kim, Mingu Jung, Enhyeok Jang, Jain Koo</strong>, and Won Woo Ro 
-</p>
-
-<p class="publication-venue">
-DAC'2027 (Under Review) <span class="separator">|</span>
-<a href="/files/Autobahn_Arxiv.pdf">Paper</a>
-</p>
-
-</div>
-
-<div class="publication-item">
-
-<h3>
-Maverick: Leveraging Address Translation to Mitigate Memory Latency in Server Workloads
-</h3>
-
-<p>
-Hoje Lee, Minchan Kim, Jaewon Kwon, <strong>Jain Koo</strong>, Yongju Lee, Won Hur, Jiwon Lee, and Won Woo Ro
-</p>
-
-<p class="publication-venue">
-MICRO'2026 <span class="separator">|</span>
-<a href="/files/Maverick_Arxiv.pdf">Paper</a>
-</p>
-
-</div>
-
-
-<div class="publication-item">
-
-<h3>
-Key–Value Cache Retrieval Is No Longer Cheap in Visual Autoregressive Models
-</h3>
-
-<p>
-<strong>Jain Koo</strong>, Enhyeok Jang, and Won Woo Ro
-</p>
-
-<p class="publication-venue">
-ITC-CSCC'2026 <span class="separator">|</span>
-<a href="/files/ITC_Arxiv.pdf">Paper</a>
-</p>
-
-</div>
-
-## Awards & Achievements
-
-- **BK21 Research Fellowship**, Yonsei University, 2025–2027
-- **J.H. Foundation Research Fellowship**, 2026–2027
-- **Graduate Student Research Assistant Scholarship**, Yonsei University, 2025
-- **Academic Honors**, Yonsei University, 2024
-- **Yonsei Jinri Scholarship**, Yonsei University, 2024
-
-
-
+## Selected Awards
+  - BK21 Research Fellowship, Yonsei University (2025–2027)
+  - J.H. Foundation Research Fellowship (2026–2027)
+  - Graduate Student Research Assistant Scholarship, Yonsei University (2025)
+  - Academic Honors, Yonsei University (2024)
+  - Yonsei Jinri Scholarship, Yonsei University (2024)

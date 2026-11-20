@@ -6,11 +6,21 @@
 
 <div itemscope itemtype="http://schema.org/Person">
 
-  <div class="author__avatar">
+  <div
+    class="author__avatar"
+    data-avatar-zoom="{{ author.avatar_zoom | default: 1 }}"
+    data-avatar-offset-x="{{ author.avatar_offset_x | default: '50%' }}"
+    data-avatar-offset-y="{{ author.avatar_offset_y | default: '50%' }}"
+    style="--author-avatar-scale: {{ author.avatar_zoom | default: 1 }}; --author-avatar-shift-x: 0%; --author-avatar-shift-y: 0%;"
+  >
     {% if author.avatar contains "://" %}
-    	<img src="{{ author.avatar }}" alt="{{ author.name }}"  fetchpriority="high" />
+      <div class="author__avatar-image">
+    	<img src="{{ author.avatar }}" alt="{{ author.name }}">
+      </div>
     {% else %}
-    	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}"  fetchpriority="high" />
+      <div class="author__avatar-image">
+    	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar-photo" alt="{{ author.name }}">
+      </div>
     {% endif %}
   </div>
 
@@ -36,12 +46,6 @@
       {% if author.email %}
         <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a></li>
       {% endif %}
-      <li>
-        <a href="{{ '/files/Jain_Koo_Yonsei.pdf' | relative_url }}" target="_blank">
-          <i class="fas fa-fw fa-file-pdf icon-pad-right" aria-hidden="true"></i>CV
-        </a>
-      </li>
-      
 
       <!-- Font Awesome and Academicons icons / Academic websites -->
       {% if author.academia %}
@@ -53,9 +57,9 @@
       {% if author.googlescholar %}
         <li><a href="{{ author.googlescholar }}"><i class="ai ai-google-scholar ai-fw icon-pad-right"></i>Google Scholar</a></li>
       {% endif %}
-      {% if author.inspire-hep %}
-        <li><a href="{{ author.inspire-hep }}"><i class="ai ai-inspire ai-fw icon-pad-right"></i>INSPIRE-HEP</a></li>
-      {% endif %}      
+      {% if author.semantic %}
+        <li><a href="{{ author.semantic }}"><i class="ai ai-semantic-scholar ai-fw icon-pad-right"></i>Semantic Scholar</a></li>
+      {% endif %}
       {% if author.impactstory %}
         <li><a href="{{ author.impactstory }}"><i class="ai ai-impactstory ai-fw icon-pad-right"></i>Impactstory</a></li>
       {% endif %}
@@ -70,15 +74,6 @@
       {% endif %}
       {% if author.scopus %}
         <li><a href="{{ author.scopus }}"><i class="ai ai-scopus ai-fw icon-pad-right"></i>Scopus</a></li>
-      {% endif %}
-      {% if author.semantic %}
-        <li><a href="{{ author.semantic }}"><i class="ai ai-semantic-scholar ai-fw icon-pad-right"></i>Semantic Scholar</a></li>
-      {% endif %}
-      {% if author.ssrn %}
-        <li><a href="{{ author.ssrn }}"><i class="ai ai-ssrn ai-fw icon-pad-right"></i>SSRN</a></li>
-      {% endif %}
-      {% if author.zotero %}
-        <li><a href="{{ author.zotero }}"><i class="ai ai-zotero ai-fw icon-pad-right"></i>Zotero</a></li>
       {% endif %}
 
       <!-- Font Awesome icons / Repositories and software development -->
@@ -102,9 +97,6 @@
       {% endif %}      
 
       <!-- Font Awesome icons / Social media -->
-      {% if author.artstation %}
-        <li><a href="https://www.artstation.com/{{ author.artstation }}"><i class="fab fa-fw fa-artstation icon-pad-right" aria-hidden="true"></i>Artstation</a></li>
-      {% endif %}        
       {% if author.bluesky %}
         <li><a href="https://bsky.app/profile/{{ author.bluesky }}"><i class="fab fa-fw fa-bluesky icon-pad-right" aria-hidden="true"></i>Bluesky</a></li>
       {% endif %}
@@ -133,7 +125,7 @@
         <li><a href="https://last.fm/user/{{ author.lastfm }}"><i class="fab fa-fw fa-lastfm icon-pad-right" aria-hidden="true"></i>Last.fm</a></li>
       {% endif %}      
       {% if author.linkedin %}
-        <li><a href="{{ author.linkedin }}"><i class="fab fa-fw fa-linkedin icon-pad-right" aria-hidden="true"></i>LinkedIn</a></li>
+        <li><a href="https://www.linkedin.com/in/{{ author.linkedin }}"><i class="fab fa-fw fa-linkedin icon-pad-right" aria-hidden="true"></i>LinkedIn</a></li>
       {% endif %}      
       {% if author.mastodon %}
         <li><a href="{{ author.mastodon }}"><i class="fab fa-fw fa-mastodon icon-pad-right" aria-hidden="true"></i>Mastodon</a></li>
