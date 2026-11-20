@@ -85,7 +85,7 @@ In Preparation
 <div class="publication-item">
 
 <h3>
-DiVA: Autobahn: Accelerating Video Visual Autoregressive Model via Semantic-Temporal Token Reduction
+Autobahn: Accelerating Video Visual Autoregressive Model via Semantic-Temporal Token Reduction
 </h3>
 
 <p>
